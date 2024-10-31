@@ -1,8 +1,6 @@
 # Sales-Insights-SQL-and-PowerBI
 This project analyzes Amazon sales data to provide insights into sales performance, product popularity, fulfillment efficiency, customer segmentation, and geographical sales distribution. The analysis leverages Power BI for data visualization and SQL for data processing to uncover trends, patterns, and actionable business insights.
 
-![download (1)](https://github.com/user-attachments/assets/7a7bd62c-9ff0-44cd-be44-3b954a9c231e)
-
 # Table of Contents:
 1. Problem Statement
 2. Project Description
@@ -14,7 +12,7 @@ This project analyzes Amazon sales data to provide insights into sales performan
 8. Tools And Technologies
 
 # Problem Statement:
-Analyze and Provide Insights on Amazon Sales Report
+Analyze and Provide Insights on Amazon Sales Report.
 
 # Project Description:
 The provided dataset contains information about sales transactions on Amazon, including details such as order
@@ -102,6 +100,14 @@ Key Measures: <br>
 # Dashboard Creation:
 
 Data visualization for the data analysis (DAX) was done in Microsoft PowerBI Desktop:
+
+![Sales-Insights-SQL-and-PowerBI](Images/sales-performance%20image%201.PNG)
+![Sales-Insights-SQL-and-PowerBI](Images/sales-performance%20image%202.PNG)
+
+# Tools And Technologies:
+1. Microsoft Power BI
+2. MySQL
+3. Power Query Editor
 
 
 
