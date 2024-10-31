@@ -40,6 +40,7 @@ In this process, we cleaned the data. Key steps included:
 5. Currency Check: Confirmed all orders were in INR and left nulls for cancelled orders.
 
 # Data Analysis using MySQL:
+![Sales-Insights-SQL-and-PowerBI](Images/analysis-using-MySQL.PNG)
 1. Monthly Sales Summary <br>
 `SELECT DATE_FORMAT(STR_TO_DATE(Date, '%e-%b-%y'), '%Y-%m') AS Month, SUM(Amount) AS TotalSales` <br>
 `FROM salesreport WHERE Date IS NOT NULL` <br>
@@ -86,7 +87,7 @@ In this process, we cleaned the data. Key steps included:
 `GROUP BY ship-state, ship-city ORDER BY ship-state, TotalSales DESC;`
 
 # Data Analysis (DAX):
-Measures used in all visualizations are: <br>
+Measures used in visualizations are: <br>
 Key Measures: <br>
 - TotalOrders = `COUNT('Amazon Sale Report'[Order ID])`
 - TotalRevenue = `'Amazon Sale Report'[Qty] * 'Amazon Sale Report'[Amount]`
